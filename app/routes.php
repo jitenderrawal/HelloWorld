@@ -18,6 +18,6 @@ Route::get('/', function()
 
 Route::get('/jit', function()
 {
-    //return View::make('jit');
-    return  "jit";
+    return View::make('jit');
+    //return  "jit";
 });

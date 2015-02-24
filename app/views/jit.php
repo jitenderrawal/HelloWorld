@@ -39,6 +39,6 @@
     </style>
 </head>
 <body>
-<h1> Jit View in action </h1>
+<h1> Jit View in action... part 2 </h1>
 </body>
 </html>
