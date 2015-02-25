@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function()
-{
-    return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
+
 
 Route::get('/jit', function()
 {
     return View::make('jit');
     //return  "jit";
 });
+
+Route::get('/test','HomeController@Welcome');

@@ -20,4 +20,10 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+    public function Welcome()
+
+    {
+        return View::make('test',array('name'=>'Jitender','surname' => 'Mahadev'));
+    }
+
 }
