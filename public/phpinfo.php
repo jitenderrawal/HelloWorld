@@ -13,4 +13,4 @@ $c= $a + $b;
 
 echo $c;
 
-echo "jit2";
+echo "jit";
