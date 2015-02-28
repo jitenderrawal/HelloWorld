@@ -1,5 +1,7 @@
 <?php
 
+
+
 class HomeController extends BaseController {
 
 	/*
@@ -23,7 +25,14 @@ class HomeController extends BaseController {
     public function Welcome()
 
     {
-        return View::make('test',array('name'=>'Jitender','surname' => 'Mahadev'));
+        $car = new car();
+
+        $emp = new employee();
+$emp->setName("Jitender Rawal");
+
+        return View::make('test',array('name'=> $car->getmake(),
+            'empname' => $emp->getName()
+            ));
     }
 
 }

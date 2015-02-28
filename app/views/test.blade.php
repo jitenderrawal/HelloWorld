@@ -10,6 +10,16 @@
 
 @extends('layouts.master')
 
+
+
 @section('content')
-  <h1>Content goes here</h1>
+  <h1>Make: {{{ $name }}} </h1>
+
+
+    <hr/>
+
+    <h3>Employee:</h3>
+
+    Name: <b> {{{$empname}}} </b>
+
 @endsection

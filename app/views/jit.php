@@ -40,5 +40,15 @@
 </head>
 <body>
 <h1> Jit View in action... part 2 </h1>
+
+<?php
+$test = 2;
+$b=5;
+
+$c= $test + $b;
+
+echo $c;
+
+?>
 </body>
 </html>
