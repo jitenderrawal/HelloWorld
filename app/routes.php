@@ -21,3 +21,5 @@ Route::get('/jit', function()
 });
 
 Route::get('/test','HomeController@Welcome');
+
+Route::get('/info','HomeController@info');

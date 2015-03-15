@@ -35,4 +35,9 @@ $emp->setName("Jitender Rawal");
             ));
     }
 
+    public function info()
+    {
+        return View::make('info');
+    }
+
 }
